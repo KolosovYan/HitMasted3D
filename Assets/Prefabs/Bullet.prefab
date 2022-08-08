@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletFlyDistance: 10
-  speed: 3
+  speed: 5
 --- !u!54 &5538718164479725875
 Rigidbody:
   m_ObjectHideFlags: 0

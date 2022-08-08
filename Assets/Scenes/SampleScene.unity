@@ -2318,6 +2318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 963194228}
+  - component: {fileID: 963194230}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
@@ -2427,6 +2428,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169d1dadd8ae9f742aed738856f8ebdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &969942064
 GameObject:
   m_ObjectHideFlags: 0
@@ -3193,6 +3206,7 @@ MonoBehaviour:
   - {fileID: 1191230017}
   - {fileID: 631214645}
   - {fileID: 84675689}
+  sceneController: {fileID: 963194230}
   i: 0
 --- !u!1001 &1662760617
 PrefabInstance:

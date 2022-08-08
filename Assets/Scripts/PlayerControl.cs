@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerControl : MonoBehaviour
 {
     public List<Transform> Points;
+    [SerializeField] private SceneController sceneController;
     private NavMeshAgent agent;
     private Animator anim;
     public int i = 0;
@@ -47,8 +48,7 @@ public class PlayerControl : MonoBehaviour
             }
             else if ((Points.Count - 1) == i)
             {
-                SceneManager.LoadScene("SampleScene");
-                Debug.Log("Restart");
+                sceneController.RestartScene();
             }
 
         }
